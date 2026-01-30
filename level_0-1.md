@@ -1,8 +1,9 @@
 #### LEVEL 0 to LEVEL 1
-**Target:** 
+
+**Target:**  
 The next level’s password is in the *readme* file in the home directory. Use it to SSH into bandit1 on port 2220, and repeat this process for each level.
 
-**Information:**
+**Information:**  
 Commands we may need to solve this level
 
 ls – Lists files and directories
@@ -24,7 +25,7 @@ find – Searches for files/directories
 Example: find /home -name "*.txt"
 
 
-**Execution:**
+**Execution:**  
 we first type the command ls to list the files that is in the home directory 
 ``` bash
 ls
