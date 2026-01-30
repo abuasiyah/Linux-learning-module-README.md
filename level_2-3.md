@@ -1,4 +1,4 @@
-#### LEVEL 1 to LEVEL 2
+#### LEVEL 2 to LEVEL 3
 
 **Target:**  
 The password for the next level is stored in a file called **--spaces in this filename--** located in the home directory
@@ -34,20 +34,21 @@ we found the **-** file. we can't simply display the content of the file using c
 1️. Spaces split arguments:
 Bash thinks we trying to open four different files, not one due to the spaces.
 2.**--** has special meaning
-
 -- tells a command:
-
 “Stop processing options after this point”
 
-In bash, spaces separate arguments
-cat ./-
+How to make it work
+
+We will put double quotation on this filename. This will preserve the spaces and most special characters.
+
+``` bash
+cat "./--spaces in this filename--"
 ```
-
-
+<img width="450" height="123" alt="image" src="https://github.com/user-attachments/assets/46199021-f86c-4a23-8499-ec4c8a8e4e78" />
 
 With this we have the password 
 
 ``` bash
- 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+ MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ```
-We will now log out and log back in on bandit2 with this password
+We will now log out and log back in on bandit3 with this password
