@@ -11,7 +11,7 @@ Example: ls -la
 
 cd – Changes directory
 Example: cd /var/log
-
+.
 cat – Displays file contents
 Example: cat readme.txt
 
@@ -25,7 +25,7 @@ find – Searches for files/directories
 Example: find /home -name "*.txt"
 
 **Execution:**  
-Once we have entred bandit3, we will first type the command ls to list the files that is in the home directory 
+Once we have entred bandit3, we will first type the command ls to list the files that is in the home directory.
 ``` bash
 ls
 ```
@@ -35,7 +35,7 @@ We found the *inhere* file. We will ow use the cd command to change the director
 ``` bash
 cd inhere/
 ```
-we then do ls to check a file, but nothing comes up meaning that the file we are looking for maybe hidden
+We then do ls to check a file, but nothing comes up meaning that the file we are looking for maybe hidden
 
 <img width="256" height="43" alt="image" src="https://github.com/user-attachments/assets/4e794470-9bf8-44ed-ac3f-10b2b3274d35" />
 
