@@ -41,6 +41,13 @@ We are explicitly telling the shell:
 
 <img width="374" height="152" alt="Screenshot 2026-01-30 200237" src="https://github.com/user-attachments/assets/1dc1f6e6-c456-43bc-b042-0b4f061d6f1e" />
 
+With this we have the password 
+
+``` bash
+ 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+```
+We will now log out and log back in on bandit2 with this password
+
 
 
 
