@@ -1,10 +1,10 @@
 #### LEVEL 1 to LEVEL 2
 
-**Target:** 
+**Target:**  
 The password for the next level is stored in a file named **-** located in the home directory
 
-**Information:**
-Commands we may need to solve this level
+**Information:**  
+*Commands we may need to solve this level*
 
 ls – Lists files and directories
 Example: ls -la
@@ -24,6 +24,21 @@ Example: du -sh folder/
 find – Searches for files/directories
 Example: find /home -name "*.txt"
 
-Once we have entred bandit1 we will use the ls coommand to find the target file 
+**Execution:**  
+Once we have entred bandit1, we will first type the command ls to list the files that is in the home directory 
+``` bash
+ls
+```
+we found the **-** file. we can't simply display the content of the file using cat as it will think we want to read input from the keyboard, not open a file. so for us to open the file we will type this command 
+``` bash
+cat ./-
+```
+We are explicitly telling the shell:
+
+**./ →** look in the current directory
+
+**- →** treat this as a literal filename
+
+Once we have entred bandit1 we will use the ls
 
 
