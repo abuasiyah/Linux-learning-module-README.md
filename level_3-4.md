@@ -29,7 +29,11 @@ Once we have entred bandit3, we will first type the command ls to list the files
 ``` bash
 ls
 ```
-we found the **-** file. we can't simply display the content of the file using cat as it will think we want to read input from the keyboard, not open a file. so for us to open the file we will type this command 
+We found the *inhere* file. We will ow use the cd command to change the directory 
+``` bash
+cd inhere/
+```
+we then do ls to check the ls, but nothing comes up meaning we need put the command 
 ``` bash
 cat ./-
 ```
