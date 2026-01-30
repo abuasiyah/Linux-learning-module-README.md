@@ -29,5 +29,10 @@ we first type the command ls to list the files that is in the home directory
 ``` bash
 ls
 ```
+we found the *readme* file. To display the content of the file we type the command cat followed by the file
+``` bash
+cat readme
+```
 <img width="667" height="192" alt="image" src="https://github.com/user-attachments/assets/1142562e-07a8-4276-bdf6-1653306ea3ad" />
+
 
