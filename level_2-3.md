@@ -32,12 +32,12 @@ ls
 we found the **-** file. we can't simply display the content of the file using cat and there are two separate reasons for this:
 
 1️. Spaces split arguments:
-Bash thinks we trying to open four different files, not one due to the spaces.
-2.**--** has special meaning
+Bash thinks we trying to open four different files, not one due to the spaces.  
+2.**--** has special meaning  
 -- tells a command:
 “Stop processing options after this point”
 
-How to make it work
+*How to make it work*
 
 We will put double quotation on this filename. This will preserve the spaces and most special characters.
 
