@@ -1,4 +1,4 @@
-#### LEVEL 0 t0 LEVEL 1
+#### LEVEL 0 to LEVEL 1
 **Target:** 
 The next level’s password is in the *readme* file in the home directory. Use it to SSH into bandit1 on port 2220, and repeat this process for each level.
 
