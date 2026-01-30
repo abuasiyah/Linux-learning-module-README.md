@@ -37,8 +37,11 @@ We are explicitly telling the shell:
 
 **./ →** look in the current directory
 
-**- →** treat this as a literal filename
+**- →** treat this as a literal filename 
 
-Once we have entred bandit1 we will use the ls
+<img width="374" height="152" alt="Screenshot 2026-01-30 200237" src="https://github.com/user-attachments/assets/1dc1f6e6-c456-43bc-b042-0b4f061d6f1e" />
+
+
+
 
 
