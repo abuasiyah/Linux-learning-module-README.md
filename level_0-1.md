@@ -4,7 +4,7 @@
 The next level’s password is in the *readme* file in the home directory. Use it to SSH into bandit1 on port 2220, and repeat this process for each level.
 
 **Information:**  
-Commands we may need to solve this level
+*Commands we may need to solve this level*
 
 ls – Lists files and directories
 Example: ls -la
