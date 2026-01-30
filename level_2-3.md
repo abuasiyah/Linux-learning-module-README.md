@@ -33,7 +33,7 @@ we found the **-** file. we can't simply display the content of the file using c
 
 1️. Spaces split arguments:
 Bash thinks we trying to open four different files, not one due to the spaces.  
-2.**--** has special meaning  
+2.**--** has special meaning:  
 -- tells a command:
 “Stop processing options after this point”
 
