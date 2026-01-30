@@ -35,7 +35,7 @@ cat readme
 ```
 <img width="667" height="192" alt="image" src="https://github.com/user-attachments/assets/1142562e-07a8-4276-bdf6-1653306ea3ad" />
 
-With this we get the password 
+With this we have the password 
 
 ``` bash
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
