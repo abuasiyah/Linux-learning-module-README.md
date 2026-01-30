@@ -3,7 +3,7 @@
 The next level’s password is in the *readme* file in the home directory. Use it to SSH into bandit1 on port 2220, and repeat this process for each level.
 
 **Information:**
-Commands you may need to solve this level
+Commands we may need to solve this level
 
 ls – Lists files and directories
 Example: ls -la
@@ -35,4 +35,9 @@ cat readme
 ```
 <img width="667" height="192" alt="image" src="https://github.com/user-attachments/assets/1142562e-07a8-4276-bdf6-1653306ea3ad" />
 
+With this we get the password 
 
+``` bash
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+```
+We will now log out and log back in on bandit1 with this password
