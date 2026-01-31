@@ -58,4 +58,9 @@ cat ./-file07
 ```
 <img width="322" height="29" alt="image" src="https://github.com/user-attachments/assets/d5baffac-32e1-49e8-831e-c08eef7d15a7" />
 
+With this we have the password 
 
+``` bash
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+```
+We will now log out and log back in on bandit5 with this password
