@@ -35,4 +35,27 @@ We found the *inhere* file. We will ow use the cd command to change the director
 ``` bash
 cd inhere/
 ```
-Once we are in the *inhere* directory, we will use ls again to list the file that are stored in the directory. We can see that we have 
+Once we are in the *inhere* directory, we will use ls again to list the file that are stored in the directory. We can see that we have 10 files.
+
+<img width="339" height="43" alt="image" src="https://github.com/user-attachments/assets/ae80905a-a1e0-4e6f-9eee-949184c2acde" />
+
+We can use the cat command and list the files one after the other, but that will be time-consuming. So we we will use the file command to identify the file types. We will use the ./* which means run all the files and directories in the current directory.
+
+``` bash
+file ./*
+```
+
+<img width="286" height="166" alt="image" src="https://github.com/user-attachments/assets/80136afb-2e12-43bf-86f5-d6432b110e5f" />
+
+We find 3 types of files and from the information we need we find that:
+1. data -> It does not show plain text  
+2. OpenPGP Public Key -> Not human-readable text
+3. ASCII text -> Plain human-readable text
+Due to *-file07* is the only human-readable file, we will the cat command to display that file and start with ./ meaining that *-file07* is file in the current directory.
+
+``` bash
+cat ./-file07
+```
+<img width="322" height="29" alt="image" src="https://github.com/user-attachments/assets/d5baffac-32e1-49e8-831e-c08eef7d15a7" />
+
+
