@@ -1,4 +1,4 @@
-#### LEVEL 3 to LEVEL 4
+#### LEVEL 4 to LEVEL 5
 
 **Target:**  
 TThe password for the next level is stored in the only human-readable file in the *inhere* directory.
@@ -25,7 +25,14 @@ find – Searches for files/directories
 Example: find /home -name "*.txt"
 
 **Execution:**  
-Once we have entred bandit3, we will first type the command ls to list the files that is in the home directory.
+Once we have entred bandit4, we will first type the command ls to list the files that is in the home directory.
 ``` bash
 ls
 ```
+<img width="230" height="66" alt="image" src="https://github.com/user-attachments/assets/4ce1225a-20a1-44bd-bf4a-199cb03d5de5" />
+
+We found the *inhere* file. We will ow use the cd command to change the directory 
+``` bash
+cd inhere/
+```
+Once we are in the *inhere* directory, we will use ls again to list the file that are stored in the directory. We can see that we have 
