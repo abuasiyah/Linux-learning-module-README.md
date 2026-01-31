@@ -1,7 +1,7 @@
 #### LEVEL 4 to LEVEL 5
 
 **Target:**  
-TThe password for the next level is stored in the only human-readable file in the *inhere* directory.
+The password for the next level is stored in the only human-readable file in the *inhere* directory.
 
 **Information:**  
 *Commands we may need to solve this level*
@@ -31,7 +31,7 @@ ls
 ```
 <img width="230" height="66" alt="image" src="https://github.com/user-attachments/assets/4ce1225a-20a1-44bd-bf4a-199cb03d5de5" />
 
-We found the *inhere* file. We will ow use the cd command to change the directory 
+We found the *inhere* file. We will now use the cd command to change the directory 
 ``` bash
 cd inhere/
 ```
