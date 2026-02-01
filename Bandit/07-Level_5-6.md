@@ -48,9 +48,23 @@ Then we type / and type your looking for, so we type *size* to see if *find* man
 
 <img width="544" height="264" alt="Screenshot 2026-02-01 065422" src="https://github.com/user-attachments/assets/c0bda36e-942d-453d-92b8-35a128a87bb5" />
 
-We find 3 types of files and from the information we need we find that:
-1. data -> It does not show plain text  
-2. OpenPGP Public Key -> Not human-readable text
-3. ASCII text -> Plain human-readable text
-Due to *-file07* is the only human-readable file, we will the cat command to display that file and start with ./ meaining that *-file07* is file in the current directory.
+``` bash
+find -size 1033c
+```
+<img width="336" height="29" alt="image" src="https://github.com/user-attachments/assets/9016c93f-aba4-41cd-8cb8-a445faa128eb" />
+
+we hae now found 1 file with that file size. we will now use cat to display that file
+
+``` bash
+cat ./maybehere07/.file2
+```
+<img width="383" height="32" alt="image" src="https://github.com/user-attachments/assets/a3d10e5e-ab84-4df7-b434-8c2b8f23a7c1" />
+
+With this we have the password 
+
+``` bash
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+```
+We will now log out and log back in on bandit6 with this password
+
 
