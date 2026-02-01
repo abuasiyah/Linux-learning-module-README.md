@@ -6,9 +6,6 @@ The password for the next level is stored in the file data.txt next to the word 
 **Information:**  
 *Commands we may need to solve this level*
 
-man – Displays the manual page for a command
-Example: man ls
-
 grep – Searches text for matching patterns
 Example: grep "error" file.txt
 
@@ -40,7 +37,7 @@ xxd – Creates a hex dump of a file
 Example: xxd file.bin
 
 **Execution:**  
-Once we have entred bandit6, we will first type the command ls to list the files that is in the home directory.
+Once we have entred bandit7, we will first type the command ls to list the files that is in the home directory.
 ``` bash
 ls
 ```
