@@ -41,7 +41,8 @@ Once we have entred bandit8, we will first type the command ls to list the files
 ``` bash
 ls
 ```
-<img width="177" height="40" alt="image" src="https://github.com/user-attachments/assets/96c337e2-8992-4c45-ba40-4ca970f7f501" />
+<img width="165" height="39" alt="Screenshot 2026-02-01 193745" src="https://github.com/user-attachments/assets/884782b3-dd94-433f-9f88-eb16a4770a0f" />
+
 
 We found the *data.txt* file. we will use the sort command to make sure all the lines in the text of *data.txt* is sorted in order, pipe (**|**)
 to allow us to put in another command, and lastly will use the uniq command with the -u argument (found in the uniq manual) to filter the uniq line of the **data.txt** file.
