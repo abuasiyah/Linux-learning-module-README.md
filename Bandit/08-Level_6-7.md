@@ -74,6 +74,6 @@ cat /var/lib/dpkg/info/bandit7.password
 With this we have the password 
 
 ``` bash
-HmorbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ```
 We will now log out and log back in on bandit7 with this password
