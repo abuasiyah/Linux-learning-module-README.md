@@ -38,44 +38,36 @@ ls didn't give us any output, meaning that there is no file. so this is the next
 3. ls to list files and directories in the home directory
 3.Typed find size 33c and we found out that several 33 bytes size file
 
-
-
-
 man find
 
 / = to type your looking for 
 
-found -user and -group
+we found to argumets that was benefital :  -user and -group
 
-We found the *inhere* file. We will now use the cd command to change the directory 
+<img width="559" height="38" alt="Screenshot 2026-02-01 083700" src="https://github.com/user-attachments/assets/1b351076-0e22-434a-b2b7-ffff145f8508" />
+
+<img width="559" height="38" alt="Screenshot 2026-02-01 083741" src="https://github.com/user-attachments/assets/3d4d8c4a-e505-4418-949f-37e1bee0e705" />
+
+With this arguments, we will look for our targeted file 
+
 ``` bash
-cd inhere/
+find  / -user bandit7 -group bandit6 -size 33c
 ```
-Once we are in the *inhere* directory, we will use ls again to list the file that are stored in the directory. We can see that we have 20 files.
+This gives us a list of files with  "permission denied" 
 
-<img width="479" height="74" alt="Screenshot 2026-02-01 073739" src="https://github.com/user-attachments/assets/e6fbc787-4bfa-411c-b262-6481b9d1f0a4" />
+<img width="752" height="568" alt="image" src="https://github.com/user-attachments/assets/2e5c4c29-7153-49de-ba35-5081fceb87cb" />
 
+To only give us back files with permissions we type 2> /dev/null = hides any permission errors or access denials.
 
-We can use the cat command and list the files one after the other, but that will be time-consuming. knowing i had to find a specific size a typed man find to look for someting that will help us look for size of a file.
 ``` bash
-man find
+find / -user bandit7 -group bandit6 -size 33c 2> /dev/null
 ```
-Then we type / and type your looking for, so we type *size* to see if *find* manual has something that looks for a specific size. We can look for size.
+<img width="627" height="32" alt="Screenshot 2026-02-01 132255" src="https://github.com/user-attachments/assets/9c60515c-1ef1-4f7f-b6d3-180f1c107596" />
 
-<img width="544" height="264" alt="Screenshot 2026-02-01 065422" src="https://github.com/user-attachments/assets/c0bda36e-942d-453d-92b8-35a128a87bb5" />
 
 ``` bash
 find -size 1033c
 ```
-<img width="336" height="29" alt="image" src="https://github.com/user-attachments/assets/9016c93f-aba4-41cd-8cb8-a445faa128eb" />
-
-We have now found 1 file with that file size. we will now use cat to display that file
-
-``` bash
-cat ./maybehere07/.file2
-```
-<img width="383" height="32" alt="image" src="https://github.com/user-attachments/assets/a3d10e5e-ab84-4df7-b434-8c2b8f23a7c1" />
-
 With this we have the password 
 
 ``` bash
