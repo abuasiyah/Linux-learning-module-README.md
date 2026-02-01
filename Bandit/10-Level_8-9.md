@@ -43,18 +43,19 @@ ls
 ```
 <img width="177" height="40" alt="image" src="https://github.com/user-attachments/assets/96c337e2-8992-4c45-ba40-4ca970f7f501" />
 
-We found the *data.txt* file. As we know that the password is next to the millionth word, we will use the grep command to searches the text millionth in the *data.txt" file
-
+We found the *data.txt* file. we will use the sort command to make sure all the lines in the text of *data.txt* is sorted in order, pipe (**|**)
+to allow us to put in another command, and lastly will use the uniq command with the -u argument (found in the uniq manual) to filter the uniq line of the **data.txt** file.
 ``` bash
-grep  "millionth" data.txt
+sort data.txt | uniq -u
 ```
-<img width="391" height="29" alt="image" src="https://github.com/user-attachments/assets/0f6dbf6c-1c9d-409e-b0c9-4d5bcb6f17ad" />
+<img width="350" height="35" alt="Screenshot 2026-02-01 152723" src="https://github.com/user-attachments/assets/f21efcad-9c94-4e8e-8534-c6e9461b6fef" />
+
 
 With this we have the password 
 
 ``` bash
-dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 ```
-We will now log out and log back in on bandit8 with this password
+We will now log out and log back in on bandit9 with this password
 
 
