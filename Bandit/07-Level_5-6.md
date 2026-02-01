@@ -53,7 +53,7 @@ find -size 1033c
 ```
 <img width="336" height="29" alt="image" src="https://github.com/user-attachments/assets/9016c93f-aba4-41cd-8cb8-a445faa128eb" />
 
-we hae now found 1 file with that file size. we will now use cat to display that file
+We have now found 1 file with that file size. we will now use cat to display that file
 
 ``` bash
 cat ./maybehere07/.file2
