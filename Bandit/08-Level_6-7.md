@@ -1,4 +1,4 @@
-#### LEVEL 5 to LEVEL 6
+#### LEVEL 6 to LEVEL 7
 
 **Target:**  
 The next level’s password is stored somewhere on the server in a 33-byte file owned by user bandit7 and group bandit6.
@@ -64,13 +64,16 @@ find / -user bandit7 -group bandit6 -size 33c 2> /dev/null
 ```
 <img width="627" height="32" alt="Screenshot 2026-02-01 132255" src="https://github.com/user-attachments/assets/9c60515c-1ef1-4f7f-b6d3-180f1c107596" />
 
+We have now found 1 file. We will now use cat to display that file
 
 ``` bash
-find -size 1033c
+cat /var/lib/dpkg/info/bandit7.password
 ```
+<img width="465" height="30" alt="Screenshot 2026-02-01 132348" src="https://github.com/user-attachments/assets/70b5892e-f6a6-4f52-8cb4-78ff5c8f0aed" />
+
 With this we have the password 
 
 ``` bash
-HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+HmorbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ```
-We will now log out and log back in on bandit6 with this password
+We will now log out and log back in on bandit7 with this password
