@@ -44,6 +44,8 @@ Once we have entred bandit6, we will first type the command ls to list the files
 ``` bash
 ls
 ```
+<img width="177" height="40" alt="image" src="https://github.com/user-attachments/assets/96c337e2-8992-4c45-ba40-4ca970f7f501" />
+
 We found the *data.txt* file. As we know that the password is next to the millionth word, we will use the grep command to searches the text millionth in the *data.txt" file
 
 ``` bash
