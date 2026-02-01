@@ -29,7 +29,8 @@ Once we have entred bandit4, we will first type the command ls to list the files
 ``` bash
 ls
 ```
-<img width="230" height="66" alt="image" src="https://github.com/user-attachments/assets/4ce1225a-20a1-44bd-bf4a-199cb03d5de5" />
+<img width="161" height="38" alt="Screenshot 2026-02-01 193407" src="https://github.com/user-attachments/assets/28ca070b-3413-4315-b316-41382bcf5c93" />
+
 
 We found the *inhere* file. We will now use the cd command to change the directory 
 ``` bash
