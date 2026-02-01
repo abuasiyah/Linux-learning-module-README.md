@@ -1,7 +1,7 @@
 #### LEVEL 5 to LEVEL 6
 
 **Target:**  
-The password for the next level is located in a human-readable file inside the inhere directory. The file is exactly 1033 bytes in size and not executable.
+The next level’s password is stored somewhere on the server in a 33-byte file owned by user bandit7 and group bandit6.
 
 **Information:**  
 *Commands we may need to solve this level*
@@ -28,11 +28,24 @@ grep – Searches text for a pattern
 Example: grep "password" file.txt
 
 **Execution:**  
-Once we have entred bandit5, we will first type the command ls to list the files that is in the home directory.
+Once we have entred bandit6, we will first type the command ls to list the files that is in the home directory.
 ``` bash
 ls
 ```
-<img width="230" height="66" alt="image" src="https://github.com/user-attachments/assets/4ce1225a-20a1-44bd-bf4a-199cb03d5de5" />
+ls didn't give us any output, meaning that there is no file. so this is the next steps we took:
+1.type pwd to prints the current working directory
+2.changed to home directory as home should have more directories to look into
+3. ls to list files and directories in the home directory
+3.Typed find size 33c and we found out that several 33 bytes size file
+
+
+
+
+man find
+
+/ = to type your looking for 
+
+found -user and -group
 
 We found the *inhere* file. We will now use the cd command to change the directory 
 ``` bash
