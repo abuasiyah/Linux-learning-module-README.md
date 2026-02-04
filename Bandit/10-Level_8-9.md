@@ -37,15 +37,14 @@ xxd – Creates a hex dump of a file
 Example: xxd file.bin
 
 **Execution:**  
-Once we have entred bandit8, we will first type the command ls to list the files that is in the home directory.
+Once we have entered bandit8, we will first type the command ls to list the files that is in the home directory.
 ``` bash
 ls
 ```
 <img width="165" height="39" alt="Screenshot 2026-02-01 193745" src="https://github.com/user-attachments/assets/884782b3-dd94-433f-9f88-eb16a4770a0f" />
 
 
-We found the *data.txt* file. we will use the sort command to make sure all the lines in the text of *data.txt* is sorted in order, pipe (**|**)
-to allow us to put in another command, and lastly will use the uniq command with the -u argument (found in the uniq manual) to filter the uniq line of the **data.txt** file.
+We found the *data.txt* file. we will use the sort command to make sure all the lines in the text of *data.txt* is sorted in order, pipe (**|**) to allow us to put in another command, and lastly will use the uniq command with the -u argument (found in the uniq manual) to filter the uniq line of the **data.txt** file.
 ``` bash
 sort data.txt | uniq -u
 ```
