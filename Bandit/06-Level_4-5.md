@@ -25,7 +25,7 @@ find – Searches for files/directories
 Example: find /home -name "*.txt"
 
 **Execution:**  
-Once we have entred bandit4, we will first type the command ls to list the files that is in the home directory.
+Once we have entered bandit4, we will first type the command ls to list the files that is in the home directory.
 ``` bash
 ls
 ```
@@ -40,7 +40,7 @@ Once we are in the *inhere* directory, we will use ls again to list the file tha
 
 <img width="339" height="43" alt="image" src="https://github.com/user-attachments/assets/ae80905a-a1e0-4e6f-9eee-949184c2acde" />
 
-We can use the cat command and list the files one after the other, but that will be time-consuming. So we we will use the file command to identify the file types. We will use the ./* which means run all the files and directories in the current directory.
+We can use the cat command and list the files one after the other, but that will be time-consuming. So we will use the file command to identify the file types. We will use the ./* which means run all the files and directories in the current directory.
 
 ``` bash
 file ./*
@@ -52,7 +52,7 @@ We find 3 types of files and from the information we need we find that:
 1. data -> It does not show plain text  
 2. OpenPGP Public Key -> Not human-readable text
 3. ASCII text -> Plain human-readable text
-Due to *-file07* is the only human-readable file, we will the cat command to display that file and start with ./ meaining that *-file07* is file in the current directory.
+Due to *-file07* is the only human-readable file, we will the cat command to display that file and start with ./ meaning that *-file07* is file in the current directory.
 
 ``` bash
 cat ./-file07
