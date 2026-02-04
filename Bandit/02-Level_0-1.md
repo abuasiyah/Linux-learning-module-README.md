@@ -30,7 +30,7 @@ we first type the command ls to list the files that is in the home directory
 ``` bash
 ls
 ```
-we found the *readme* file. To display the content of the file we type the command cat followed by the file
+We found the *readme* file. To display the content of the file we type the command cat followed by the file
 ``` bash
 cat readme
 ```
