@@ -25,7 +25,7 @@ find – Searches for files/directories
 Example: find /home -name "*.txt"
 
 **Execution:**  
-Once we have entred bandit3, we will first type the command ls to list the files that is in the home directory.
+Once we have entered bandit3, we will first type the command ls to list the files that is in the home directory.
 ``` bash
 ls
 ```
