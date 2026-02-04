@@ -25,11 +25,11 @@ find – Searches for files/directories
 Example: find /home -name "*.txt"
 
 **Execution:**  
-Once we have entred bandit2, we will first type the command ls to list the files that is in the home directory 
+Once we have entered bandit2, we will first type the command ls to list the files that is in the home directory 
 ``` bash
 ls
 ```
-we found the **-** file. we can't simply display the content of the file using cat and there are two separate reasons for this:
+We found the **-** file. we can't simply display the content of the file using cat and there are two separate reasons for this:
 
 1️. Spaces split arguments:
 Bash thinks we trying to open four different files, not one due to the spaces.  
