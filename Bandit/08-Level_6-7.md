@@ -28,12 +28,12 @@ grep – Searches text for a pattern
 Example: grep "password" file.txt
 
 **Execution:**  
-Once we have entred bandit6, we will first type the command ls to list the files that is in the home directory.
+Once we have enetred bandit6, we will first type the command ls to list the files that is in the home directory.
 ``` bash
 ls
 ```
 ls didn't give us any output, meaning that there is no file. so this is the next steps we took:
-1.type pwd to prints the current working directory
+1.type pwd to prints the current working directoryn
 2.changed to home directory as home should have more directories to look into
 3. ls to list files and directories in the home directory
 3.Typed find size 33c and we found out that several 33 bytes size file
@@ -42,7 +42,7 @@ man find
 
 / = to type your looking for 
 
-we found to argumets that was benefital :  -user and -group
+We found two arguments that was beneficial :  -user and -group
 
 <img width="559" height="38" alt="Screenshot 2026-02-01 083700" src="https://github.com/user-attachments/assets/1b351076-0e22-434a-b2b7-ffff145f8508" />
 
