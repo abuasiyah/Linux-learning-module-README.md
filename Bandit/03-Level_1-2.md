@@ -25,11 +25,11 @@ find – Searches for files/directories
 Example: find /home -name "*.txt"
 
 **Execution:**  
-Once we have entred bandit1, we will first type the command ls to list the files that is in the home directory 
+Once we have entered bandit1, we will first type the command ls to list the files that is in the home directory 
 ``` bash
 ls
 ```
-we found the **-** file. we can't simply display the content of the file using cat as it will think we want to read input from the keyboard, not open a file. so for us to open the file we will type this command 
+We found the **-** file. we can't simply display the content of the file using cat as it will think we want to read input from the keyboard, not open a file. so for us to open the file we will type this command 
 ``` bash
 cat ./-
 ```
