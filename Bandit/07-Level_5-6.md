@@ -25,7 +25,7 @@ find – Searches for files/directories
 Example: find /home -name "*.txt"
 
 **Execution:**  
-Once we have entred bandit5, we will first type the command ls to list the files that is in the home directory.
+Once we have entered bandit5, we will first type the command ls to list the files that is in the home directory.
 ``` bash
 ls
 ```
@@ -41,7 +41,7 @@ Once we are in the *inhere* directory, we will use ls again to list the file tha
 <img width="479" height="74" alt="Screenshot 2026-02-01 073739" src="https://github.com/user-attachments/assets/e6fbc787-4bfa-411c-b262-6481b9d1f0a4" />
 
 
-We can use the cat command and list the files one after the other, but that will be time-consuming. knowing i had to find a specific size a typed man find to look for someting that will help us look for size of a file.
+We can use the cat command and list the files one after the other, but that will be time-consuming. knowing i had to find a specific size a typed *man find* to look for something that will help us look for size of a file.
 ``` bash
 man find
 ```
